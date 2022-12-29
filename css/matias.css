@@ -1,0 +1,25 @@
+    @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    .container_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .css {
+        width: 35rem;
+        height: 10%;
+    }
+    
+    .h5 {
+        font-family: 'Michroma', sans-serif;
+    }
+    
+    .Fondo {
+        background: linear-gradient(90deg, rgba(9, 255, 248, 1) 0%, rgba(255, 255, 255, 1) 49%, rgba(0, 255, 231, 1) 100%);
+    }

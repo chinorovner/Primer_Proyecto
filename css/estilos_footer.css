@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_footer {
+    width: 100vmax;
+    margin-top: 205%;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+}
+
+.color-bg {
+    background-color: rgb(236, 212, 159);
+}
+
+.color_h4 {
+    color: black;
+}
+
+.face {
+    color: rgb(32, 146, 199) !important;
+    background-color: aliceblue;
+}
+
+.twitter {
+    color: rgb(92, 150, 205);
+    background-color: antiquewhite;
+}
+
+.instagram {
+    color: rgb(228, 54, 141);
+    background-color: rgb(87, 84, 80);
+}
+
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+.face:hover {
+    transform: scale(1.2);
+}
+
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.links {
+    font-size: 18px;
+    list-style: none;
+}
+
+.links:hover {
+    color: rgb(240, 237, 64);
+}
+
+.store:hover {
+    transform: scale(1.1);
+}
+
+.texto_publicidad {
+    text-align: start;
+    color: rgb(20, 20, 20);
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.img_publicidad :hover {
+    transform: scale(1.1);
+}
+
+.lista {
+    font-size: 18px;
+}
+
+.lista:hover {
+    color: rgb(240, 237, 64);
+}

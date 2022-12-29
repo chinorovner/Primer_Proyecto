@@ -1,0 +1,116 @@
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                background-color: antiquewhite;
+            }
+            
+            .main {
+                width: 1400px;
+                height: 300px;
+            }
+            
+            .cajon {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            
+            .asides {
+                background: white;
+                margin-top: 47px;
+                float: right;
+                border-radius: 2%;
+                margin-right: 10px;
+            }
+            
+            .img_aside {
+                padding: 2 2 2 2;
+                border-radius: 1px;
+                float: right;
+                width: 16em;
+                height: 51.5em;
+                border-radius: 2%;
+            }
+            
+            .img_aside:hover {
+                box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+                transition: all 400ms ease;
+                transform: translateY(-2%);
+            }
+            
+            .main_left {
+                float: left;
+                width: 80%;
+            }
+            
+            .nav-link {
+                font-family: 'Michroma', sans-serif;
+                font-size: 13px;
+            }
+            
+            .subt {
+                font-family: 'Michroma', sans-serif;
+            }
+            
+            a {
+                text-decoration: none;
+                color: grey;
+            }
+            
+            h2 {
+                font-family: 'Michroma', sans-serif;
+                color: rgb(0, 0, 0);
+            }
+            
+            .card {
+                box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
+                transition: all 400ms ease;
+            }
+            
+            .letra_iniciar_sesion {
+                font-size: 14px;
+                display: flex;
+                justify-content: center;
+                font-family: 'Michroma', sans-serif;
+                padding-left: -10em;
+            }
+            
+            .caja_iniciar {
+                display: flex;
+                justify-content: center;
+                width: 10em;
+                height: 2em;
+                background-color: gray;
+                padding-left: -10em;
+                box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
+                border-radius: 15%;
+                font-family: 'Michroma', sans-serif;
+            }
+            
+            .caja_iniciar:hover {
+                box-shadow: 3px 7px 5px 0px rgba(0, 0, 0, 0.75);
+                background-color: rgb(117, 109, 119);
+                transition: all 300ms ease;
+                transform: translateY(-2%);
+            }
+            
+            .card:hover {
+                box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+                transition: all 400ms ease;
+                transform: translateY(-2%);
+            }
+            
+            .text-secondary:hover {
+                color: black
+            }
+            
+            .nav-link:hover {
+                font-family: 'Michroma', sans-serif;
+                background-color: rgba(255, 217, 0, 0.349);
+                transition: all 300ms ease;
+                transform: translateY(-2%);
+            }

@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/matias.css">
+    <link rel="stylesheet" href="./css/estilos_carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/estilosdavid.css">
+    <link rel="stylesheet" href="./css/estilos_footer.css">
+    <link rel="stylesheet" href="./css/estilosLogin.css">
+    <link rel="shortcut icon" href="./imgss/imgs/favicon.png">
+    <script src="https://kit.fontawesome.com/0409b6ba9b.js" crossorigin="anonymous"></script>
+    <title>Rolling-News</title>
+    <script src="https://kit.fontawesome.com/0409b6ba9b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class=" container-xxl w-75py-lg-4">
+        <div class="row ">
+            <div class="col-sm-12 ">
+                <img class="img-fluid" src="./imgss/rn.png" alt="rnn">
+            </div>
+            <div class="row justify-content-lg-end justify-content-md-center">
+                <button class="btn btn-sm btn-dark caja_iniciar " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">                
+                <p class="letra_iniciar_sesion ">Iniciar sesion</p> 
+                </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Bienvenido</h1>
+                            <button type="button" class="btn-dark" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Ingresa tu Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pepito43@...">
+                                    <div id="emailHelp" class="form-text">Nunca compartas tu contraseña con nadie!!
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="12345678">
+                                </div>
+                                <button type="submit" class="btn btn-dark">
+                                    Aceptar</button>
+                            </form>
+                        </div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
+                    Registrarse
+                </button>
+                        <!-- Modal -->
+                        <div class="modal fade " id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="row">
+                                        <h1 class="col-sm-12 text-center" id="modalLoginLabel ">Rolling-News</h1>
+                                    </div>
+                                    <div class="row">
+                                        <section class=" col-sm-12 form-login ">
+                                            <form>
+                                                <h5>crea una nueva cuenta</h5>
+                                                <input class="controls" type="text" name="usuario" value="" placeholder="Usuario" required>
+                                                <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña" required>
+                                                <input class="controls" type="email" name="mail" value="" placeholder="usuarios@gmail.com" required>
+                                                <input class="controls" type="tel" name="Telefono" value="" placeholder="Ingrese un Telefono de contacto">
+                                                <input class="form-check-input" type="checkbox">
+                                                <label class="form-check-label ">Al seleccionar esta casilla aceptas nuestro aviso de privacidad y los términos y condiciones</label>
+                                                <input class="buttons" type="submit" name="enviar" value="Crear">
+                                            </form>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+    </header>
+    <hr>
+    <nav class=" navbar fixed-top navbar-expand-lg navbar-dark  d-flex rounded-start rounded-end container  d-flex flex-column p-1 ">
+        <div>
+            <button class="navbar-toggler bg-dark " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon me-xl-4 "></span>
+        </button>
+            <div class=" collapse navbar-collapse bg-dark rounded-1" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item ">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Deportes.html">Deportes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Actualidad.html">Actualidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Espectaculos.html">Espectaculos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Politica.html">Politica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Quienes_Somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <a class="nav-link text-white" href="Compartí.html">Compartí </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Politica_Privacidad.html">Politica  de Privacidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div class=>
+            <aside class="asides ">
+                <a href="https://www.behance.net/gallery/33332919/Revista-Punto-Aparte-Anuncios-Publicitarios" target="_blank">
+                    <img class="img_aside" src="https://s3images.coroflot.com/user_files/individual_files/183086_Nu2TuTklZ_zUJmwVy6nCKm678.jpg">
+                </a>
+            </aside>
+        </div>
+    </section>
+    <main class="main_left">
+
+        <section class="justify-content-start">
+            <article class="container text-center">
+                <div>
+
+                    <a href="Deportes.html">
+                        <h2>
+                            Deportes
+                        </h2>
+                    </a>
+                </div>
+                <div class="container">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <a href="https://www.ole.com.ar/mundial/mundial-qatar-2022/argentina-campeon-mundial-limpio-manipulacion-fifa_0_1r8QxkQ0ca.html" target="_blank"> <img src="https://media.infocielo.com/p/f8f6935cb5ad11130772a11b0ccc2751/adjuntos/299/imagenes/001/561/0001561847/887x0/smart/seleccion-argentina.png" class="d-block w-100" alt="brazilllora"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <strong><h5 class="text-"></h5></strong>
+                                    <br>
+                                    <br>
+                                    <strong><p class="  text-primary"> ARGENTINA CAMPEON MUNDIAL </p></strong>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://tn.com.ar/deportes/seleccion-argentina/2022/12/26/el-video-nunca-visto-de-la-final-del-mundial-las-lagrimas-de-messi-di-maria-y-scaloni-tras-el-ultimo-penal/" target="_blank"><img src="https://www.cadena3.com/admin/playerswf/fotos/ARCHI_967114.jpg" class="d-block w-100" alt="arg"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Argentina CAmpeon Mundial </h5>
+                                    <p>Después de la histórica consagración ante Francia, se hizo viral un video con las reacciones de los jugadores luego del gol marcado por Montiel.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://twitter.com/panamaendirecto/status/1607850963255103494/photo/1" target="_blank"> <img src="https://pbs.twimg.com/media/FlA67zqXoAQxhNM?format=jpg&name=900x900" class="d-block w-100" alt="marrue"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Siguen disputas entre Benzema y Deschamps</h5>
+                                    <p>Después de la culminación del mundial de #Qatar2022 y del adiós de Karim Benzema de la selección francesa, siguen las disputas si podía o no regresar a la concentración de Francia durante la cita mundialista. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+                    </div>
+                </div>
+            </article>
+            <br>
+            <br>
+            <article>
+                <div class="container">
+                    <div class="row d-flex ">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://media.tycsports.com/files/2022/11/30/511468/messi-no-saluda-a-lewandowski-_416x234.webp?v=1" class="card-img-top" alt="duelo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Messi vs Lewandowski</h5>
+                                    <p class="card-text"> El delantero resumió en unas palabras el tono de la charla que mantuvo con el argentino en Qatar,No quiero decir de qué hablamos, pero fue una charla agradable .s el mejor futbolista del mundo.</p>
+                                    <a href="https://www.lagaceta.com.ar/nota/973516/deportes/conmocion-muerte-entrenador-serbio-sinisa-mihajlovi.html" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://img.lagaceta.com.ar/fotos/notas/2022/12/16/398x265_dolido-tucumano-joaquin-correa-recordo-sinisa-mihajlovic-publicacion-973516-125728.webp" class="card-img-top w-100" alt="duelo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Conmoción por la muerte del entrenador serbio Sinisa Mihajlović</h5>
+                                    <p class="card-text"> Tenía 53 años y había sido uno de los primeros DT de Joaquín Correa en su llegada a Europa.</p>
+                                    <a href="https://www.ole.com.ar/ecuador/internacional/lewandowski-frase-cruce-messi-mundial_0_mTXJzFMZ1v.html" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://img.lagaceta.com.ar/fotos/notas/2022/12/13/398x265_la-dupla-perfecta-lio-messi-julian-lvarez-brillaron-ante-croacia-973166-184818.webp" class="card-img-top" alt="aadidas">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adidas acelera la producción de camisetas de Argentina por el furor en el Mundial de Qatar 2022</h5>
+                                    <p class="card-text"> La empresa se vio superada por el éxito de la "Albiceleste</p>
+                                    <a href="https://www.lagaceta.com.ar/nota/973532/deportes/adidas-acelera-produccion-camisetas-argentina-furor-mundial-qatar-2022.html" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light w-100">
+                                <img src="https://img.lagaceta.com.ar/fotos/notas/2022/12/16/398x265_tercera-final-seleccion-francia-defendera-titulo-domingo-buscara-bicampeonato-mundial-logro-no-se-consigue-desde-brasil-alzo-copa-chile-62-973524-140537.webp">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Así consiguió Francia convertirse en una potencia del deporte mundial</h5>
+                                    <p class="card-text"> Un proceso que demandó años y costo conseguirla clasificacion.</p>
+                                    <a href="https://www.lagaceta.com.ar/nota/973524/mundial-qatar-2022/la-gaceta-qatar-asi-consiguio-francia-convertirse-potencia-deporte-mundial.html" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+            </article>
+        </section>
+        <hr><br>
+        <section>
+
+            <article>
+                <div class="container text-center">
+                    <a href="Espectaculos.html">
+                        <h2 class="text-dark">
+                            Espectaculos
+                        </h2>
+                    </a>
+                </div>
+                <div class="container">
+                    <div id="carouselEspectaculos" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselEspectaculos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselEspectaculos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselEspectaculos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://www.a24.com/primiciasya/musica/estelares-cierra-su-ano-el-rex-n1065483" target="_blank"> <img src="https://media.a24.com/p/07936cee2763a87f510f1ed82859b719/adjuntos/296/imagenes/009/091/0009091086/691x388/smart/0000478560jpg.jpg" alt="baile" class="d-block w-100"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Estelares cierra su año en el Gran Rex: "Somos muy honestos con nuestro laburo</h5>
+                                    <p>El frontman Manuel Moretti y el bajista Pali Silvera dialogaron con A24.com en la previa a la presentación de su último disco</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.a24.com/primiciasya/maria-becerra-lanzo-su-segundo-album-y-causo-revuelo-la-nena-argentina-n1063705" target="_blank"><img src="https://media.a24.com/p/cfffdc576e7731be9ae64b21caf7cd9a/adjuntos/296/imagenes/009/087/0009087266/1200x675/smart/maria-becerra.png" class="d-block w-100" alt="becerra">
+                                    <div class="carousel-caption d-none d-md-block">
+                                </a>
+                                <h5>María Becerra lanzó su segundo álbum y causó revuelo: "La Nena de Argentina</h5>
+                                <p>El esperado segundo álbum de María Becerra, La Nena de Argentina, ya se puede escuchar en todas las plataformas siendo tendencia en todas las redes sociales.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.a24.com/primiciasya/internacionales/periodista-argentino-triunfa-estados-unidos-gano-3-premios-emmy-n1063289" target="_blank"><img src="https://media.a24.com/p/fae407ffaea110fa5d4d557c60d3ce6d/adjuntos/296/imagenes/009/086/0009086353/1200x675/smart/sin-titulopng.png" class="d-block w-100" alt="gramys"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Periodista argentino triunfa en Estados Unidos: ganó 3 premios Emmy</h5>
+                                    <p>Hernán Fratto, ex periodista de América TV y A24, fue distinguido con tres premios Emmy en la ciudad de Chicago.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEspectaculos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselEspectaculos" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </article>
+            <br>
+            <article>
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.infobae.com/new-resizer/a83OofX01G4o-VoGdumICeSKTug=/420x236/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/V3YTRXC2RNBBRNV4LJS5W3SI54.jpg" alt="mila">
+                                <div class="card-body">
+                                    <h5 class="card-title">Milla Jovovich penso q moria , su madre le cancelo una boda y su padre era de la mafia rusa</h5>
+                                    <p class="card-text"> La actriz ucraniana cumple este sábado 46 años. Y ya tiene una vida digna de ser retratada en una de hollywood </p>
+                                    <a href="https://www.infobae.com/teleshow/2022/12/17/milla-jovovich-penso-que-moriria-en-la-adolescencia-su-madre-le-anulo-un-matrimonio-y-su-padre-era-de-la-mafia-rusa/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.infobae.com/new-resizer/y1_DDmgm_7IqzoUcbVdh3UGRDQk=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/QIFSVIN7PFGYLM6Y6DV46HFTAE.jpg" class="card-img-top" alt="ironman">
+                                <div class="card-body">
+                                    <h5 class="card-title">“Iron Man” es declarado como un film histórico en la historia del cine</h5>
+                                    <p class="card-text"> Esta decisión marca la primera vez que una producción de Marvel es elegida como importante cultural e historicamente para Los Estados Unidos</p>
+                                    <a href="https://www.infobae.com/que-puedo-ver/2022/12/17/iron-man-es-declarado-como-un-film-historico-en-la-historia-del-cine-donde-ver-todas-sus-peliculas/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.infobae.com/new-resizer/KmW6sT65a5s5IgNtwuLMINPqO7I=/992x661/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/3PQQCQCQKRFY7AOBIHAIUA7DTY.png">
+                                <div class="card-body">
+                                    <h5 class="card-title"> “Babylon” estas son las primeras críticas sobre esta superproducción llena de estrellas</h5>
+                                    <br>
+                                    <p class="card-text"> El film dirigido por Damien Chazelle reúne a un gran elenco
+                                        <br>
+                                    </p>
+                                    <a href="https://www.infobae.com/que-puedo-ver/2022/12/17/iron-man-es-declarado-como-un-film-historico-en-la-historia-del-cine-donde-ver-todas-sus-peliculas/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <article>
+                <div class="container text-center">
+                    <a href="Actualidad.html">
+                        <h2 class="text-dark">
+                            Actualidad
+                        </h2>
+                    </a>
+                </div>
+                <div class="container">
+                    <div id="carouselActualidad" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselActualidad" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselActualidad" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselActualidad" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://www.lanacion.com.ar/tecnologia/dia-negro-para-mark-zuckerberg-despedira-a-11000-empleados-de-meta-nid09112022/" target="_blank"><img src="./imgss/imgs/mark zuckerberg.webp" class="d-block w-100" alt="mark"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Día negro para Mark Zuckerberg: Meta despedirá a más de 11.000 empleados</h5>
+                                    <p>Es la primera vez que la compañía, que hasta ahora había tenido un crecimiento en apariencia imparable, debe tomar una decisión tan drástica</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.iproup.com/coffee-break/36664-elon-musk-ya-no-es-el-mas-rico-del-mundo-quien-lo-desplazo" target="_blank"><img src="./imgss/imgs/bernard arnault.webp" class="d-block w-100" alt="arg"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>El nuevo hombre más rico del mundo
+                                    </h5>
+                                    <p>El magnate Bernad Arnault acaba de destronar al dueño de Twitter como el hombre más rico del mundo</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://www.telam.com.ar/notas/202212/614395-twitter-musk-periodistas-cuentas-suspension.html" target="_blank"><img src="./imgss/imgs/elon musk.jpg" class="d-block w-100" alt="marrue"></a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Twitter: Elon Musk suspendió más de media docena de cuentas de periodistas </h5>
+                                    <p>La medida alcanza a trabajadores de CNN, The New York Times, The Washington Post y otros medios independientes</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselActualidad" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselActualidad" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </article>
+            <br>
+            <article>
+                <div class="container">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.lanacion.com.ar/resizer/w4fGO_BwxrLhBD0kDtQPEpilqnc=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/HU7QK6CBWVEM5AZPMG3XXGERCE.jpg" alt="soja">
+                                <div class="card-body">
+                                    <h5 class="card-title">comprar 15 panes dulces a solo uno</h5>
+                                    <br>
+                                    <br>
+                                    <p class="card-text"> Según la Fundación Agropecuaria para el Desarrollo de Argentina (FADA), la cena para las fiestas aumentó 10 veces versus 2017</p>
+                                    <a href="https://www.lanacion.com.ar/economia/campo/en-cinco-anos-con-1000-los-argentinos-pasaron-de-comprar-15-pan-dulces-a-solo-uno-nid16122022/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.lanacion.com.ar/resizer/_b-VYnngk3cZl3NBv0XU_O2aJ7c=/1200x800/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/S4NI7SQPHVG7ZE72GNE4E56UA4.JPG" class="card-img-top" alt="paneles">
+                                <div class="card-body">
+                                    <h5 class="card-title">Inauguraron en la Rural el mayor parque de energía solar privado de la ciudad de Buenos Aires</h5>
+                                    <p class="card-text"> Se trata de 1135 paneles fotovoltaicos que permiten cubrir 40% del consumo del predio, equivalente a 210 viviendas familiares</p>
+                                    <a href="https://www.lanacion.com.ar/economia/campo/inauguraron-en-la-rural-el-mayor-parque-de-energia-solar-privado-de-la-ciudad-de-buenos-aires-nid15122022/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="card bg-dark text-light">
+                                <img src="https://www.lanacion.com.ar/resizer/gEs6sJjBWJj5_nM-QsB4C7GT4wU=/1200x800/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/XJHKQ45M7VEYFPPOXPG3A7E6KA.JPG">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Soja: alertan sobre un fuerte salto en la “primarización” de las exportaciones</h5>
+                                    <br>
+                                    <br>
+                                    <p class="card-text"> Un proceso que demandó años y que buscó disminuir las diferencias de origen cultural.</p>
+                                    <a href="https://www.lanacion.com.ar/economia/campo/soja-alertan-sobre-un-fuerte-salto-en-la-primarizacion-de-las-exportaciones-nid07122022/" target="_blank" class="btn btn-primary">Ver noticia</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <br>
+    <hr>
+    <section class="main_footer">
+        <footer class="color-bg text-light py-5 ">
+            <section class="container">
+                <article>
+                    <h4 class="d-inline mr-3 color_h4">Rolling News</h4>
+                    <a href="https://es-la.facebook.com/ " target="_blank" class="text-secondary "><i class="fab fa-facebook-square mr-3  face
+                
+                    "></i></a>
+                    <a href="https://twitter.com/?lang=es- " target="_blank" class="text-secondary "><i class="fab fa-twitter-square mr-2 twitter
+                    "></i></a>
+                    <a href="https://www.instagram.com/ " target="_blank" class="text-secondary "><i class="fab fa-instagram mr-2 instagram"></i></i></a>
+                </article>
+                <article class="row ">
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-3 ">
+                        <h6 class="text-secondary ">Nosotros
+                        </h6>
+                        <ul class="links">
+                            <li> <a href="Contacto.html" class="text-secondary ">Contacto </a></li>
+                            <li> <a href="Compartí.html" class="text-secondary ">Compartír</a></li>
+                            <li> <a href="Quienes_Somos.html" class="text-secondary ">Quienes Somos?</a></li>
+                            <li> <a href="Politica_Privacidad.html" class="text-secondary ">Politica de Privacidad</a></li>
+                            <li> <a href="index.html" class="text-secondary ">Inicio</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 my-3 ">
+                        <h6 class="text-secondary ">Mapa del sitio</h6>
+                        <ul class="lista ">
+                            <li> <a href="Politica.html" class="text-secondary ">Politica</a></li>
+                            <li> <a href="Deportes.html" class="text-secondary ">Deportes</a></li>
+                            <li> <a href="Espectaculos.html" class="text-secondary ">Espectaculos</a></li>
+                            <li> <a href="Actualidad.html" class="text-secondary ">Actualidad</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 ">
+                        <a class="img_publicidad" target="_blank" href="https://www.booking.com/hotel/br/pousada-favareto.es-ar.html?aid=304142&label=gen173bo-1FCAEoggI46AdILFgDaAyIAQGYASy4ARfIAQ_YAQHoAQH4AQOIAgGYAiGoAgO4AuC185sGwAIB0gIkNzQ1ZGQ5MTYtNDAyMi00YWZhLTllODUtM2M2M2M2ZjYwZGJi2AIF4AIB&sid=c499275ff9c43ee4a339dffce6a1fabc&dest_id=-643337;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=2;hpos=2;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1669126903;srpvid=227b64fa41100230;type=total;ucfs=1&#hotelTmpl"><img src="https://t-cf.bstatic.com/xdata/images/hotel/square200/109925742.webp?k=a160ef93bdcfe4dd8d82e560dd1d7f35a18c39fb76d76efd9404277b00173602&o=&s=1" alt="disfruta " class="w-50 position-relative "></a>
+                        <h2 class="texto_publicidad ">Hotel & Pousada <br> Favareto</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3  ">
+                        <h6 class="text-secondary ">Baja la App- Unite</h6>
+                        <a href="https://www.apple.com/la/app-store/" target="_blank"><img src="/imgss/badge-apple-store.svg" alt="logo_app_store " class=" my-2  store ">
+                            <a href="https://play.google.com/store/games?hl=es&pli=1" target="_blank"><img src="/imgss/google-play-badge-bb.svg" alt="logo play store " class="my-2 store "></a>
+                    </div>
+                </article>
+            </section>
+            <p class="text-center my-lg-5 bg-dark container">&copy;Todos los derechos reservados </p>
+        </footer>
+    </section>
+    <script src="js/jquery-3.6.0.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+</body>
+
+</html>

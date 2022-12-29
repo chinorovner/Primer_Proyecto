@@ -1,0 +1,16 @@
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.titulo {
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.margenes {
+    width: 60%;
+}
+
+.margenes2 {
+    width: 60%;
+}
